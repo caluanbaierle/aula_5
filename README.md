@@ -2,7 +2,7 @@
 ## Cruso de  html, css, javascript e *angularjs*
 
 
-**Arquivos Commitados **
+**Arquivos Commitados**
 * index.html
 * README.md
 * vendor
