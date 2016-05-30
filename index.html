@@ -4,6 +4,31 @@
 	<title>Aula 5</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.css">
+	<script type="text/javascript">
+		var nome = "";
+
+		function testeCaluan(a , b){
+			var result = a+b; 
+			//console.log("Olá "+ nome+ " sua soma é "+result );
+			var toReturn= window.prompt("Quem é você?");
+
+
+			function condicao(){
+				if(toReturn.length >2){
+					return "olá "+toReturn+". Você tem "+toReturn.length+" letras.";
+				}else if(!!nome.length){
+					return "Você preencheu seu nome errado ";
+				}
+
+				else{
+					return "Voce não Digitou seu nome";
+				}
+				
+			}
+			console.log(condicao());
+		}
+		testeCaluan(10,20);
+	</script>
 </head>
 <body>
 	<h1>Hello World</h1>
